@@ -6,41 +6,30 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
-
-.main {
-  flex: 1;
-  width: 75%;
+.main{
+  display: block;
 }
-
-h1 {
-  font-size: 5rem;
+h1{
+  font-size:5rem;
+  
 }
-
-footer {
-  text-align: right;
+.tile-image{
+  height:200px;
+  float: left;
+  margin-right: 50px;
+}
+.card{
+  width: 45%;
+}
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+footer{
+  position: absolute;
   color: midnightblue;
-  clear:both;
-}
-div.right-card{
-  width: 600px;
-  height: 300px;
-  float: right;
-}
-
-div.left-card{
-  width: 600px;
-  height: 300px;
-  float:left; 
-}
-div.right-card>img{
-  width: 50%; 
-}
-div.left-card> img{
-  width: 50%;
-}
-div.right-card>p{
-  float:right;
-}
-div.left-card>p{
-  float:right;
+  bottom: 0;
+  right: 0;
 }
