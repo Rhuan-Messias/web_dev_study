@@ -1,22 +1,65 @@
 body {
     font-family: 'Sono', sans-serif;
-  }
+}
 
-  .pricing-container{
+.pricing-container{
     display: flex;
-  }
-  .pricing-plan ul{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:30px;
+    height: 100vh;
+}
+.pricing-plan{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    flex-basis: 400px;
+}
+ul{
     text-align: center;
     list-style: none;
-  }
-  
-  
-  
-  
-  /* Hint: What can you do with a media query and flexbox? */
-  @media (max-width: 1250px) {
-    /* .pricing-container{
+    margin: 0;
+    padding: 0;
+}
+.plan-title{
+    text-align: center;
+    font-weight: bold;
+}
+.plan-price{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+button {
+    color: whitesmoke;
+    background-color: #ff6600;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+/* Hint: What can you do with a media query and flexbox? */
+@media (max-width: 1250px) {
+    .pricing-container{
         display: flex;
         flex-direction: column;
-    } */
-  }
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap:30px;
+        height: 100vh;
+    }
+    .pricing-plan{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f2f2f2;
+        flex-basis: 200px;
+        min-width: 300px ;
+    }
+}
