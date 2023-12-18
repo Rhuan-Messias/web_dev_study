@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 5px solid black;
+}
+#two{
+    background-color: red;
+}
