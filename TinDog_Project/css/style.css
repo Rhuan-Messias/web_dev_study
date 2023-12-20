@@ -45,6 +45,10 @@ section{
   border: 0!important; 
 }
 
+.apple-button{
+  border: 1px solid gray;
+}
+
 #first-title{
   font-size: 3rem;
 }
