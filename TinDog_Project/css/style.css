@@ -35,7 +35,7 @@ section{
 #title{
   margin: 0;
 }
-.container{
+#title > .container{
   height: 100%;
   width: 100%;
   padding-right: 40px;
@@ -43,6 +43,12 @@ section{
   padding-top:3rem;
   margin: 0!important;
   border: 0!important; 
+}
+
+#hanging-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .apple-button{
