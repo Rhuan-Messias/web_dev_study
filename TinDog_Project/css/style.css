@@ -21,6 +21,10 @@ section{
   padding: 0px;
 }
 
+h2 {
+  text-align: center;
+}
+
 .icon-square {
   width: 3rem;
   height: 3rem;
@@ -60,15 +64,22 @@ section{
 }
 
 #testimonial > .container {
-
-}
-
-.brands{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2rem solid #f8f9fa;
 }
+
+#testimonial {
+  border-top: 2rem solid #f8f9fa;
+}
+
 
 #dog{
   border-radius: 50%;
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 2px;
 }
+
